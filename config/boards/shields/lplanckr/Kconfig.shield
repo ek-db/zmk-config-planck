@@ -1,2 +1,2 @@
-config SHIELD_LPLANCKS
-    def_bool $(shields_list_contains,lplancks)
+config SHIELD_LPLANCKR
+    def_bool $(shields_list_contains,lplanckr)

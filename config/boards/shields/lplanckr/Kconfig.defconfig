@@ -1,6 +1,6 @@
-if SHIELD_LPLANCKS
+if SHIELD_LPLANCKR
 
 config ZMK_KEYBOARD_NAME
-    default "LPlanckS"
+    default "LPlanckR"
 
 endif
