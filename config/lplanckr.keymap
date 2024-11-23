@@ -280,10 +280,10 @@
 
         default_layer {
             bindings = <
-&kp Q      &kp W     &kp E     &kp R        &kp T  &kp Y      &kp U  &kp I      &kp O       &kp P          &trans    &trans
-&kp A      &kp S     &kp D     &kp F        &kp G  &kp H      &kp J  &kp K      &kp L       &kp SEMICOLON  &trans    &trans
-&kp Z      &kp X     &kp C     &kp V        &kp B  &kp N      &kp M  &kp COMMA  &kp PERIOD  &kp SQT        &trans    &trans
-&kp LCTRL  &kp LGUI  &kp LALT  &lt 1 SPACE  &none  &kp SPACE  &none  &kp SPACE  &kp DEL     &kp LEFT       &kp DOWN  &kp RIGHT
+&kp Q      &kp W     &kp E     &kp R        &kp T  &kp Y      &kp U  &kp I      &kp O       &kp P          &kp P           &trans
+&kp A      &kp S     &kp D     &kp F        &kp G  &kp H      &kp J  &kp K      &kp L       &kp SEMICOLON  &kp SEMICOLON   &trans
+&kp Z      &kp X     &kp C     &kp V        &kp B  &kp N      &kp M  &kp COMMA  &kp PERIOD  &kp SQT        &kp APOSTROPHE  &trans
+&kp LCTRL  &kp LGUI  &kp LALT  &lt 1 SPACE  &none  &kp SPACE  &none  &kp SPACE  &kp DEL     &kp LEFT       &kp DOWN        &mo 1
             >;
         };
 
@@ -291,7 +291,7 @@
             bindings = <
 &kp GRAVE  &kp N1    &kp N2     &kp N3    &kp N4    &kp N5     &kp N6     &kp N7    &kp N8     &kp N9        &kp N0     &kp MINUS
 &kp TILDE  &kp EXCL  &kp AT     &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR      &kp RPAR   &kp HOME
-&trans     &kp NUBS  &trans     &trans    &trans    &trans     &ma_1      &ma_2     &ma_3      &ma_4         &kp FSLH   &kp PSCRN
+&trans     &kp NUBS  &trans     &trans    &trans    &trans     &ma_1      &ma_2     &ma_3      &ma_4         &kp FSLH   &bootloader
 &trans     &trans    &kp LSHFT  &trans    &none     &trans     &none      &trans    &trans     &kp C_VOL_DN  &kp PG_DN  &kp C_VOL_UP
             >;
         };
